@@ -14,7 +14,6 @@ const arr = prompt('숫자입력').split(' ').map(function(n){
     console.log('no');
   }
 
-
   /* 답안
   function sol(l){
   l.sort((a,b) => {
