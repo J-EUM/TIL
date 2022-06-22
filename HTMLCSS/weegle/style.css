@@ -1,0 +1,51 @@
+*{ box-sizing: border-box; }
+#logo{
+    width: 272px;
+    display: block;
+    margin : auto;
+}
+#searchbar{
+    position: relative;
+    width: 561px;
+}
+input {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 20px;
+    padding: 10px 12px;
+}
+.icon-left{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    margin: 0;
+}
+.icon-right {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    margin: 0;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgray;
+    color: grey;
+    font-size: 15px;;
+}
+p{ font-size: 10px;}
+.content-wrapper{
+    display: grid;
+    place-items: center;
+    height: 300px;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
